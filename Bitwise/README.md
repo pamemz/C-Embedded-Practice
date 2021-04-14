@@ -61,10 +61,12 @@ Based on the OR logic table can compare all the bits of two variables
   |1 0| 1
   |1 1| 0
 ```
+Example:
+```
   // Supose you have a 8bit architecture
-  char A = (0x05)&(0x06) //Hex (101)(110)
+  char A = (0x05)^(0x06) //Hex (101)(110)
   // The result is in bin (0000 0011) in hex (0x03);
-
+```
 ### [<<]- left shift
 This special operator shift to the left a given value n spaces to the left starting from the 0 position.
 
