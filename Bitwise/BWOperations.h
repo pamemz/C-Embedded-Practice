@@ -87,12 +87,14 @@ uint8_t bit_toggle(const uint8_t A,const uint8_t bit);
 uint8_t CompareAandB(const uint8_t A, const uint8_t B, const uint8_t bit);
 
 /*!
- * @brief Givent a Byte A reverse its bits positions.
+ * @brief Givent a Byte A reverse its bit positions.
  *
  * @param A  uint8_t const byte. 
  *
  * @return Return the reverse byte. 
  */
 uint8_t reversebit(const uint8_t A);
+
+
 
 #endif

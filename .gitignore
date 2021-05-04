@@ -1,2 +1,8 @@
 
-*.EXE
+MAIN.EXE
+Bitwise/BWOperations.c
+Bitwise/BWOperations.c
+*.json
+Bitwise/BWtests.c
+Pointers/PTROperations.c
+Pointers/PTRtests.c

@@ -1,8 +1,8 @@
 /****************************************************************************
-* Title                 :   Bitwise Tests   
-* Filename              :   BWtests.h
+* Title                 :   Pointers Tests   
+* Filename              :   PTRtests.h
 * Author                :   Jose Jorge Figueroa Figueroa
-* Origin Date           :   08/04/2021
+* Origin Date           :   12/04/2021
 * Version               :   1.0.0
 * Compiler              :   GCC
 * Target                :   WINDOWS 64 bits x64
@@ -13,27 +13,28 @@
 /*************** INTERFACE CHANGE LIST **************************************
 *
 *    Date    Version   Author         Description 
-*  08/04/21   1.0.0   Jose Figueroa   BWTests.
+*  12/04/21   1.0.0   Jose Figueroa   BWTests.
 *
 *****************************************************************************/
-/** @file TODO: BWTESTS.h
+/** @file TODO: PTRTESTS.h
  *  @brief This module contains the tests for the Bitwise topic.
  * 
  *  The runtests function runs all the test functions at once testing several 
- * functions form the BMOperations files TODO: Follow the README instructions.
+ *  functions form the BMOperations files TODO: Follow the README instructions.
  */
-#ifndef _BWTESTS_H_
-#define _BWTESTS_H_
+#ifndef _PTRTESTS_H_
+#define _PTRTESTS_H_
 /******************************************************************************
 * Includes
 *******************************************************************************/
 #include <stdint.h>
 #include <stdio.h>
-#include "BWOperations.h"
+#include "PTROperations.h"
 
 /******************************************************************************
 * Function Prototypes
 *******************************************************************************/
+/********************************************** TODO: CHANGE DESCRIPTIOSN FROM BW TO PTRS ***/
 /*!
  * @brief Run all the tests and evaluate if they PASS 
  *        or FAIL by interfacing in the cmd.
@@ -55,31 +56,6 @@ uint8_t test01(void);
  *
  * @return Return 1 if PASS or 0 if FAIL.
  */
-uint8_t test02(void);
-
-/*!
- * @brief Test the CompareAandB bit from the BWOperations.
- *          CompareAandB
- * 
- * @return Return 1 if PASS or 0 if FAIL.
- */  
-uint8_t test03(void);
-
-/*!
- * @brief Test the bit_toggle bit from the BWOperations.
- *          bit_toggle
- * 
- * @return Return 1 if PASS or 0 if FAIL.
- */
-uint8_t test04(void);
-
-/*!
- * @brief Test the reversebit bit from the BWOperations.
- *          bit_toggle
- * 
- * @return Return 1 if PASS or 0 if FAIL.
- */
-uint8_t test05(void);
 
 #endif /*File_H_*/
 
