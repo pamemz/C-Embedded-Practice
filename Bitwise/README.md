@@ -6,7 +6,7 @@ Bitwise or Binary operation are specific operators that takes two variables, usu
 
 2.- Create the functions as described in the BWOperation.h file.
 
-3.- When your functions is ready you can test it by running the following command.
+3.- When your functions are ready you can test it by running the following command.
 ```
 make.bat BW
 ```

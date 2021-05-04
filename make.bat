@@ -15,8 +15,3 @@ IF "%arg1%"=="RUN" (
   @echo "Executing MAIN.EXE"
   MAIN.EXE
 )
-
-IF "%arg1%"=="OF" (
-  gcc -Wall BWtests.c -c
-  gcc -Wall PTRtests.c -c
-)
