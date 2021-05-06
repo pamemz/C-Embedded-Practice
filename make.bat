@@ -12,6 +12,6 @@ IF "%arg1%"=="PTR" (
 )
 
 IF "%arg1%"=="RUN" (
-  @echo "Executing MAIN.EXE"
+  ::@echo "Executing MAIN.EXE"
   MAIN.EXE
 )
